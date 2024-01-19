@@ -49,7 +49,7 @@ function checkAnswer(){
         level=0;
         gamePattern=[];
         setTimeout(function() {
-            $("h1").text("Press A Key to Start");
+            $("h1").text("Press A Keyboard Key to Start");
         }, 3000);
         return;  
     }

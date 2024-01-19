@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
+  <title>Simon Game</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Press A Keyboard Key to Start</h1>
   <div class="container">
     <div class="row">
 
@@ -30,7 +30,17 @@
       <div type="button" id="blue" class="btn blue">
 
       </div>
-
+    <div class="rules">
+      <h2>Rules</h2>
+      <ol>
+        <li>There are four tiles (Red, Green, Blue and Black).</li>
+        <li>In every level, one random tile is highlighted.</li>
+        <li>A player has to remember the sequence of all tiles shown upto current level and select the correct sequence by clicking on the tiles. 
+          For example, if red is highlighted in level 1 and green in level 2, level 1 sequence is just red, but level 2 sequence is red from level 1 and green from level 2.</li>
+        <li>Game ends when a wrong sequence is selected in a level.</li>
+      </ol>
+      <p>There is no leadboard or statistics as this is a front-end only application. No data is stored.</p>
+    </div>
     </div>
 
   </div>
